@@ -79,7 +79,8 @@
     background-size: cover;
     background-position: center;
 }
-.profile{
+.profile, .profile img{
     width: 5rem;
     height: 5rem;
+    object-fit: cover;
 }
