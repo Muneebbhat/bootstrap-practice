@@ -1,0 +1,75 @@
+
+.orange {
+    background: orange;
+}
+
+.blue {
+    background: blue;
+    color: #fff;
+}
+
+.pink {
+    background: pink;
+}
+
+.maroon {
+    background: maroon;
+    color: #fff;
+}
+.maroon-text {
+    color: maroon;
+    
+}
+
+.olive {
+    background: olive;
+}
+
+.green {
+    background: green;
+    color: #fff;
+}
+.white{
+    color: #fff;
+}
+.bg-white{
+   background-color: #fff;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+}
+.navigation {
+    list-style: none;
+}
+.navigation li a{
+    color: #fff;
+    text-decoration: none;
+}
+.banner{
+    height: 50vh;
+    background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=878&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_heading{
+    color: #333;
+    background: rgba(255, 255, 255, 0.723) !important;
+    margin: 6rem 0 0 0;
+
+}
+.banner_para{
+    color: #fff;
+    background: rgba(128, 0, 0, 0.589);
+}
+.card_wrapper{
+    width: 100%;
+    height: 50vh;
+}
+.icon_card{
+    font-size: 5rem;
+}
+.after::after{
+    content: "";
+}
